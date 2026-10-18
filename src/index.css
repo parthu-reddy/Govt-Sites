@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Fraunces', 'Noto Sans SC', 'Noto Sans Devanagari', 'Noto Sans Arabic', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', 'Noto Sans SC', 'Noto Sans Devanagari', 'Noto Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Noto Sans SC', 'Noto Sans Devanagari', 'Noto Sans Arabic', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FBF9F5;
+    color: #1C1917;
+  }
+
+  h1, h2, .font-display {
+    font-family: var(--font-serif);
+  }
+
+  code, pre, .font-mono, .tabular-nums {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+

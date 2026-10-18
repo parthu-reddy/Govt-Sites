@@ -1,0 +1,6 @@
+{
+  "name": "Civis Mundi — Global Government Portal & Open Data Registry",
+  "description": "Comprehensive, cross-checked directory of national, state, provincial, and municipal government portals, citizen services, and live public APIs across all 195 countries with multilingual support and Google Search-grounded civic intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
